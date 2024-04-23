@@ -1,0 +1,36 @@
+HEAP:
+
+In Java, a heap is a specialized tree-based data structure that follows the heap property. 
+
+Properties :
+1. Binary Tree :
+at most 2 children
+
+2. Complete Binary Tree :
+CBT is a BT in which all the levels are completely filled except
+possibly the last one, which is filled from the left to right.
+
+3. Heap Order Property : 
+Children >= Parent (minHeap)
+Children <= Parent (maxHeap)
+
+4. Efficient Operations: 
+Heaps are efficient for accessing and manipulating the maximum or minimum element in the collection. The maximum or minimum element can be retrieved in constant time, and insertion and deletion operations take logarithmic time.
+
+
+## Heaps are typically implemented using arrays rather than as a separate class due to several reasons:
+
+1. Efficiency: Using arrays for heap implementation offers better performance in terms of memory usage and access time. Arrays provide contiguous memory allocation, which improves cache locality and reduces memory overhead compared to linked structures.
+
+2. Simplicity: Implementing heaps using arrays is simpler and more straightforward than creating a custom class. Arrays allow for direct access to elements based on their indices, making it easier to implement heap operations like insertion, deletion, and traversal.
+
+3. Space Efficiency: Arrays require less memory overhead compared to linked structures, as they do not incur additional overhead for storing references or pointers between nodes. This makes array-based heap implementations more space-efficient, especially for large datasets.
+
+4. Predictable Performance: Array-based heap implementations offer predictable performance characteristics for common heap operations. Accessing elements by index has constant-time complexity O(1) and heap operations like insertion and deletion have logarithmic time complexity (O(log n)) where n is the number of elements in the heap.
+
+5. Existing Data Structures: Java already provides array-based data structures like ArrayList and arrays themselves, which can be easily utilized for implementing heaps. Leveraging existing data structures reduces the need for creating custom classes and simplifies the implementation process.
+
+
+Real-life Example:
+
+A common real-life example of heap usage is in job scheduling. Consider a scenario where a computer system has multiple tasks with varying priorities. These tasks need to be executed based on their priorities, with higher priority tasks taking precedence over lower priority ones. A max-heap can efficiently manage these tasks, allowing quick access to the highest priority task for execution. As tasks are completed or new tasks are added, the heap adjusts dynamically, ensuring that the highest priority task is always readily available for execution. This usage of heaps helps optimize resource utilization and system performance in various computer systems and software applications.
