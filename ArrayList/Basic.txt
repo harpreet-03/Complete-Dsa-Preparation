@@ -1,0 +1,24 @@
+
+:> Array ->
+
+fixed size
+primitive data types
+can be stored
+
+:> ArrayList ->
+
+dynamic site
+primitive data types
+can't be stored directly
+
+ArrayList is a part of Java Collection framework
+
+
+Operations :
+
+Add Element : 0(1)
+Get Element: 0(1)
+Remove Element: 0(n)
+set Element at index : 0(n)
+contains elements : 0(n)
+size() : 0(1)

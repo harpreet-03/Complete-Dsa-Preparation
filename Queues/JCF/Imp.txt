@@ -1,0 +1,13 @@
+Sure, here are the reasons why we often use `LinkedList` or `ArrayDeque` classes to implement a queue instead of directly using the `Queue` interface from the Java Collections Framework (JCF):
+
+1. **Flexibility in Implementation**: The `Queue` interface in JCF is just an interface, not a concrete class. This means it cannot be instantiated directly. Using `LinkedList` or `ArrayDeque` allows us to create a concrete implementation of a queue right away.
+
+2. **Performance**: Both `LinkedList` and `ArrayDeque` provide efficient implementations of the queue data structure. `LinkedList` is a doubly linked list, which provides constant time insertion and removal at both ends of the list. `ArrayDeque` is implemented as a resizable array, which offers efficient insertion and removal at both ends as well. These implementations are often more efficient than the default `Queue` implementation provided by JCF.
+
+3. **Usage Patterns**: `LinkedList` and `ArrayDeque` offer additional methods beyond those required by the `Queue` interface. This allows for more flexibility in how the queue is used and manipulated, depending on specific requirements.
+
+4. **No Need for Type Casting**: When using `LinkedList` or `ArrayDeque`, there's no need for explicit type casting since they are concrete classes. This simplifies the code and makes it more readable.
+
+5. **Consistency**: Using `LinkedList` or `ArrayDeque` provides consistency in the codebase. If other parts of the code are already using these classes, it might make sense to use them for implementing queues as well to maintain consistency and avoid unnecessary complexity.
+
+Overall, while the `Queue` interface in JCF is useful for defining the behavior of a queue, using `LinkedList` or `ArrayDeque` classes directly often provides a more practical and efficient implementation for many scenarios.

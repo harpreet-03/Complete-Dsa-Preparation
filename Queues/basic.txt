@@ -1,0 +1,23 @@
+Queues: FIFO
+
+Operations: 
+1. Add()   #O(1)
+[Enque]
+
+2. Remove()   #O(1)
+[Dequeue]
+
+3. Peek()   #O(1)
+[Front]
+
+Implemetation: 
+
+1. By Arrays
+
+- bcz of its fized size, we dont prefer to use arrays.
+- remove operation using array takes O(n) time that is huge
+
+
+
+2. L.L
+3. ArrayList

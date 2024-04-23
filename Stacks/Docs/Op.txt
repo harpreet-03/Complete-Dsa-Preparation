@@ -1,0 +1,58 @@
+
+Operations on Stack: 
+
+1. push() ->  O(1)
+2. pop() ->  O(1)
+3. peek() ->  O(1)
+
+Stack can be implementd using the following D.S :
+
+-> Arrays
+-> ArrayList
+-> LinkedList
+
+------------------------------------------------------------------------------------------
+
+We don't prefer to implement the Stack using Arrays bcz :
+
+-> Fixed size: Arrays have a fixed size defined at initialization, making them unsuitable for situations where the stack size needs to grow dynamically. Adding or removing elements becomes inefficient and cumbersome.
+
+-> Manual memory management: You need to manage memory allocation and deallocation yourself, which can be error-prone and lead to memory leaks.
+
+-> Lack of abstraction: Raw arrays don't offer abstraction for common stack operations like push, pop, peek, or check for emptiness. You need to implement these functionalities manually, increasing code complexity and reducing maintainability.
+
+-> Inconsistency: Stack is a Last-In-First-Out (LIFO) data structure, but arrays offer random access, which can lead to accidental misuse and errors.
+
+------------------------------------------------------------------------------------------
+
+Here's a comparison of ArrayList and LinkedList for stack implementation in Java, along with recommendations:
+
+ArrayList:
+
+Pros:
+
+Faster push and pop operations at the end of the list (amortized constant time).
+More efficient for random access to elements (constant time).
+Better memory utilization for smaller stacks.
+Cons:
+
+Resizing might be less efficient for large stacks (involves copying elements).
+Inserting or removing elements in the middle is more expensive (requires shifting elements).
+LinkedList:
+
+Pros:
+
+Efficient for frequent insertions and deletions anywhere in the list (constant time).
+No need for resizing, as elements are dynamically added or removed.
+Cons:
+
+Slower push and pop operations at the end of the list (linear time).
+Higher memory overhead due to node objects and pointers.
+Less efficient for random access to elements (linear time).
+Recommendations:
+
+Generally, ArrayList is preferred for stack implementation in Java due to its efficient push and pop operations, which are the most frequent stack operations.
+Choose LinkedList if:
+You anticipate frequent insertions or deletions anywhere in the stack, not just at the end.
+Memory overhead is a major concern.
+Random access to elements is not required.

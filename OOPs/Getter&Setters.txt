@@ -1,0 +1,7 @@
+
+Get : to return the value
+Set : to modify the vakue
+
+this: 'this' keyword is used to refer to the current object
+
+

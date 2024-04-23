@@ -1,0 +1,12 @@
+
+import java.util.ArrayList; 
+
+public class arrList {
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<Integer>(); // Create an empty arraylist of integers called "list"
+
+        ArrayList<Boolean> list2 = new ArrayList<Boolean>(); // Create an empty arraylist
+
+        
+    }
+}

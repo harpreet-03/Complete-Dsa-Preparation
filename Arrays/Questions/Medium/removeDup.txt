@@ -1,0 +1,18 @@
+public class Solution {
+	public static int removeDuplicates(int[]arr,int n) {
+		// Write your code here.
+		int k = 1;
+		for(int i = 1; i<n; i++){
+			if(arr[i]  != arr[k-1]){
+				arr[k] = arr[i];
+				k++;
+			}
+		}
+		return arr.length;
+	}
+	public stativ void main(String[] args){
+		int arr[] = {1,2,2,2,3};
+		int n = 5;
+		System.out.println(removeDuplicates(arr, n));
+	}
+}

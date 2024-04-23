@@ -1,0 +1,22 @@
+/*
+ 
+
+Class:
+
+A class is a blueprint or a template for creating objects. It defines the properties (attributes) and behaviors (methods) that objects of that class will have.
+Classes are like a set of instructions for creating objects with specific characteristics and behaviors.
+They act as a blueprint because you can create multiple objects based on the same class, and they will all have the same structure and behavior.
+
+Object:
+
+An object is an instance of a class. It is a concrete realization of the class's blueprint, with its own unique data and state.
+Objects can be thought of as individual entities that have their own data (attributes) and can perform actions (methods) as defined by the class.
+Objects allow you to work with and manipulate data in a structured and organized way.
+
+
+-->>In summary, a class defines the structure and behavior of objects, while objects are instances of classes that hold specific data and can perform actions based on the class's definition. 
+
+
+
+
+ */

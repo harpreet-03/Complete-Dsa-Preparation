@@ -1,0 +1,29 @@
+The most efficient sorting algorithms for large data:
+
+1. Quicksort:
+
+Average time complexity: O(n log n)
+Space complexity: O(log n)
+Best performance: For large, random data sets
+Worst case: O(n^2) (rare)
+
+2. Merge Sort:
+
+Time complexity: O(n log n) (guaranteed)
+Space complexity: O(n)
+Best performance: For stable sorting and external sorting
+Worst case: O(n log n)
+
+3. Radix Sort:
+
+Time complexity: O(n) (best case)
+Space complexity: O(n + k)
+Best performance: For sorting integers with a limited range of values
+Worst case: O(n^2) (rare)
+
+4. Heap Sort:
+
+Time complexity: O(n log n)
+Space complexity: O(1) (not including heap storage)
+Best performance: For in-memory sorting with limited space
+Worst case: O(n log n)
