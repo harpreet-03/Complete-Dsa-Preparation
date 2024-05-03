@@ -13,6 +13,9 @@ public class Stack_using_JCF {
             System.out.println(s.peek());
             s.pop();
         }
+        
+        
+
     }
     
 }
