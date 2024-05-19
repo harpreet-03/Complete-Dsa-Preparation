@@ -5,3 +5,4 @@ public class op{
         System.out.println("Sum of (10,20) is "+ (a + b)+".");
     }
 }
+system.out.print1n;
