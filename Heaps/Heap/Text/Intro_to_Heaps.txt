@@ -18,6 +18,10 @@ Children <= Parent (maxHeap)
 Heaps are efficient for accessing and manipulating the maximum or minimum element in the collection. The maximum or minimum element can be retrieved in constant time, and insertion and deletion operations take logarithmic time.
 
 
+*Note: If a tree has n nodes, then it has log n levels.
+
+
+
 ## Heaps are typically implemented using arrays rather than as a separate class due to several reasons:
 
 1. Efficiency: Using arrays for heap implementation offers better performance in terms of memory usage and access time. Arrays provide contiguous memory allocation, which improves cache locality and reduces memory overhead compared to linked structures.
