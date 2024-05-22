@@ -1,0 +1,12 @@
+Min Heap:
+
+-A min heap is a binary heap where the root node has the minimum value.
+-The highest priority is assigned to the lowest value, meaning that the smallest element is always at the root of the heap.
+-Each parent node has a value less than or equal to the values of its children.
+
+
+Max Heap:
+
+-A max heap is a binary heap where the root node has the maximum value.
+-The highest priority is assigned to the highest value, meaning that the largest element is always at the root of the heap.
+-Each parent node has a value greater than or equal to the values of its children.
