@@ -12,6 +12,7 @@ public class Insert {
             int x = arr.size() - 1;
             int par = (x - 1) / 2;
 
+            //Min-heap
             while (arr.get(x) < arr.get(par)) { // O(log n)
                 // swap
                 int temp = arr.get(x);
@@ -23,7 +24,7 @@ public class Insert {
                 par = (x - 1) / 2;
 
             }
-        }
+        } 
 
         // Get Min in Heap
         public int getMin() {
