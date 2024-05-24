@@ -1,5 +1,3 @@
-Sure, here's a template for a README.md file for your GitHub repo:
-
 ---
 
 # Java with DSA Practice
