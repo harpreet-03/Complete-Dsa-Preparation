@@ -1,0 +1,6 @@
+A jagged array is an array of arrays such that member arrays can be of different sizes, i.e., we can create a 2-D array but with a variable number of columns in each row. 
+These types of arrays are also known as Jagged arrays. 
+
+>>>
+In Java, a jagged array is essentially an array of arrays where each element of the main array can be an array of different sizes. Unlike a regular two-dimensional array where each row has the same number of columns, in a jagged array, each row (or element of the main array) can have a different number of columns.
+

@@ -1,6 +1,6 @@
 public class Q2 {
     public static void main(String[] args) {
-        int arr[] = { 1, 21, 3, 41, 5, 61};
+        int arr[] = { 1, 21, 3, 41, 5, 61, 66, 99, 210};
 
         boolean isEven = false;
 

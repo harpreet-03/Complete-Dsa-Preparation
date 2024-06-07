@@ -1,3 +1,4 @@
+package Java_Dsa.Functions;
 import java.util.*;
 
 public class fact {

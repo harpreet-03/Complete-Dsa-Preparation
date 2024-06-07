@@ -1,3 +1,4 @@
+package Java_Dsa.Functions;
 public class prime2 {
 
     public static boolean isprime(int n){

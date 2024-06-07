@@ -1,3 +1,4 @@
+package Java_Dsa.Functions;
 import java.util.*;
 import java.math.*;
 // Prime numbers in a specific given range

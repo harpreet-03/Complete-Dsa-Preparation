@@ -61,7 +61,7 @@ class Delete {
                 minIdx = left;
             }
             if (right < arr.size() && arr.get(right) < arr.get(minIdx)) {
-                minIdx = right;
+                minIdx = right; 
             }
             if (minIdx != i) {
                 // swap

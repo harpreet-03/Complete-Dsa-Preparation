@@ -1,3 +1,4 @@
+package Java_Dsa.Functions.BASIC;
 public class basic_func {
     public static void main(String[] args) {
 

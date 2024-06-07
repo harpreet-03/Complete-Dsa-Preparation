@@ -1,3 +1,4 @@
+package Java_Dsa.Functions;
 import java.util.*;
 
 // WAF to calculate Binomial Coefficient of a given number: 

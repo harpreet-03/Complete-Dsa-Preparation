@@ -1,3 +1,4 @@
+package Java_Dsa.Functions;
 
 public class prinhello {
     public static void prinhello() {
