@@ -1,0 +1,17 @@
+Hashing in Java :
+
+In Java, hashing is commonly used to manage collections of data and to ensure the efficient retrieval of elements. Hashing converts input into a fixed-size string or integer that represents the data, which can then be used for quick access or comparison.
+
+
+Data Structure used in Hashing: 
+1. map: 
+
+- HashMap
+- LinkedHashmap
+- Treemap
+
+2. Set:
+
+- Hashset
+- LinkedHashset
+- TreeSet

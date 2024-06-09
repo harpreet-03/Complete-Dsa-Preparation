@@ -1,0 +1,67 @@
+Hashmap: (key, value)
+---------------------
+
+HashMap in Java is a part of the Java Collections Framework and provides a way to store key-value pairs with constant-time performance for basic operations like adding, retrieving, and removing elements. 
+
+Here's a detailed overview of HashMap:
+--------------------------------------
+
+HashMap is a concrete implementation of the Map interface, providing functionality based on a hash table. It allows one null key and multiple null values. Key is a unique entity.
+
+Key Features:
+-------------
+
+- Unordered Collection: The elements are not stored in any particular order.
+- Allows Null Values: Supports one null key and multiple null values.
+- Not Synchronized: If multiple threads access a HashMap concurrently and at least one of the threads modifies it structurally, it must be synchronized externally.
+- Load Factor and Capacity: It dynamically grows and shrinks as needed.
+
+
+Basic Operations:
+-----------------
+
+1. Creating a HashMap :
+
+import java.util.HashMap;
+HashMap<String, Integer> map = new HashMap<>();
+
+2. Adding Key-Value Pairs: O(1)
+
+map.put("apple", 1);
+map.put("banana", 2);
+
+3. Retrieving a Value: O(1)
+
+int value = map.get("apple"); // Outputs: 1
+
+4. Removing a Key-Value Pair: O(1)
+
+map.remove("banana");
+
+5. Iterating Over a HashMap: 
+
+for (Map.Entry<String, Integer> entry : map.entrySet()) {
+    System.out.println(entry.getKey() + ": " + entry.getValue());
+}
+
+6.Checking for Existence of Key or Value:
+
+boolean hasApple = map.containsKey("apple");
+boolean hasValue1 = map.containsValue(1);
+
+7. Size of the HashMap
+
+int size = map.size();
+
+
+HashMap Operations: 
+-------------------
+
+HashMap<String, Integer> hm = new HashMap<>(); 
+<Input is String, output is Integer type>
+
+put(key, value) --> O(1)
+get(key)        --> O(1)
+containsKey(Key)--> O(1)
+remove(key)     --> O(1)
+
