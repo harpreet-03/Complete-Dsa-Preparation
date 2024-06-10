@@ -1,0 +1,12 @@
+LinkedHashmap:
+--------------
+
+- Keys are insertion ordered
+- Doubly L.L is used
+
+Syntax:
+-------
+
+LinkedHashmap<K, V> hm = new LinkedHashmap<>();
+- same operations as HashMap
+- same time complexity

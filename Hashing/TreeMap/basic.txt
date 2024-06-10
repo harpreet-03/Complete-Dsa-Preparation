@@ -1,0 +1,11 @@
+Tree Map: 
+---------
+
+- keys are sorted.
+- put, get remove ----> O(logn)
+- Implemented using Red Black Tree[ Self-balancing trees ] 
+
+Syntax:
+-------
+
+TreeMap<k, v> hm = new TreeMap<>();
