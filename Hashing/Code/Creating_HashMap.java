@@ -12,8 +12,7 @@ public class Creating_HashMap {
 
         // print
         System.out.println(hm); // {USA=50, China=150, India=100}
-        // HashMap are un-ordered map. That's why output order is not same as the order
-        // of insertion.
+        // HashMap are un-ordered map. That's why output order is not same as the order of insertion.
 
         // get - O(1)
         int population = hm.get("India");
