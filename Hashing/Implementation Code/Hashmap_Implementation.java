@@ -29,7 +29,7 @@ public class Hashmap_Implementation {
 
         @SuppressWarnings("unchecked")
         public HashMap() {
-            this.N = 4;
+            this.N = 4; 
             this.buckets = new LinkedList[4];
             for (int i = 0; i < 4; i++) {
                 this.buckets[i] = new LinkedList<>();
