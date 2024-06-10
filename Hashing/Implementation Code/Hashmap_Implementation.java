@@ -4,7 +4,7 @@
 // Time Complexity: O(1) on average (if the elements are uniformly distributed)
 // Space Complexity: O(n) where n is the number of elements in the hashmap
 
-// why hashmaps operation are done in constant time complexity
+// why hashmaps operation are done in constant time complexity ? 
 // 1. Hashmaps are implemented using arrays of linked lists.
 // 2. The hashcode of the key is calculated and then the index is calculated using the hashcode.
 // 3. The element is stored in the linked list at that index.
