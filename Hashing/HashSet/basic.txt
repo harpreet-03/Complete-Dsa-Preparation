@@ -1,0 +1,27 @@
+HashSet: Collections of Unique elements
+---------
+
+- No duplicates
+- NULL is allowed
+- It is a part of the Java Collection Framework.
+- It implements the Set interface.
+- It is not synchronized.
+- It does not maintain the insertion order (unordered).
+
+
+Note: 
+- A HashSet is implemented using a HashMap in Java.
+- similarly, LinkedHashSet is implemented using a LinkedHashMap, same for TreeSet also.
+
+Syntax:
+-------
+HashSet<Integer> hs = new HashSet<>();
+
+
+HashSet Operations:
+-------------------
+1. add(key)  --> O(1)
+2. contains(Key)  --> O(1)
+3. remove(key)  --> O(1)
+
+
