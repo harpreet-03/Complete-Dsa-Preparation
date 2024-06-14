@@ -1,0 +1,6 @@
+TreeSet:
+--------
+
+- Sorted in acending order
+- NULL values are NOT allowed
+- less optimized than hashSet and linkedhashSet (T.C --> O(log n))
