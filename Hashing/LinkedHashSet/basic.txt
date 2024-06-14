@@ -1,0 +1,6 @@
+LinkedHashSet:
+--------------
+
+- Ordered using DLL(Doubly L.L)
+- No duplicates allowed
+- Null elements are allowed
