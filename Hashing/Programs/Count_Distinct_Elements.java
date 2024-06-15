@@ -15,7 +15,9 @@ Optimized approach will be :
 2. for each element in the array, check if it is already present in the HashSet or not;
 3. if not same, then put it in HashSet and check again.
 4. return the size of the HashSet.
+
  */
+
 public class Count_Distinct_Elements {
     public static int countDistinct(int arr[]) {
         HashSet<Integer> hs = new HashSet<>();
