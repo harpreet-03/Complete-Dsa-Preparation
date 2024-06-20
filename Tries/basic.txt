@@ -1,0 +1,40 @@
+Tries:
+------
+
+- A Trie, also known as a prefix tree, is a type of search tree used in computing. 
+- It is a tree-like data structure that is often used to store a dynamic set or associative array where the keys are usually strings.
+
+
+What is a Trie?
+---------------
+
+A Trie is a data structure that is used to store a collection of strings in a way that allows for efficient retrieval of strings that match a given prefix.
+
+
+How does a Trie work?
+---------------------
+
+A Trie works by creating a tree-like data structure where each node in the tree represents a string. Each node has a set of child nodes, and each child node represents a string that is one character longer than the string represented by its parent node.
+
+Key characteristics of a Trie:
+------------------------------
+
+- Root node: The root node of a Trie represents the empty string.
+- Child nodes: Each child node represents a string that is one character longer than the string represented by its parent node.
+- Edges: The edges between nodes in a Trie represent the characters in the strings.
+- Leaf nodes: Leaf nodes in a Trie represent the actual strings in the collection.
+
+
+Advantages of Tries:
+--------------------
+
+- Efficient search: Tries allow for efficient search of strings that match a given prefix.
+- Fast insertion and deletion: Tries allow for fast insertion and deletion of strings.
+- Space efficiency: Tries can be more space-efficient than other data structures, such as hash tables, for storing large collections of strings.
+
+
+Disadvantages of Tries:
+------------------------
+
+- Complexity: Tries can be complex to implement and manage, especially for large collections of strings.
+- Memory usage: Tries can use a significant amount of memory, especially for large collections of strings.
