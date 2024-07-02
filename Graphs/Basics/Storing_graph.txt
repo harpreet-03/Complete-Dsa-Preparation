@@ -1,0 +1,10 @@
+Storing a Graph:
+----------------
+
+Graph can be implemented by various ways: 
+
+- Adjacency Matrix
+- Adjacency List
+- Edge List
+- 2D Matrix( Implicit Graph )
+
