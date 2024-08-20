@@ -7,3 +7,4 @@ Inheritance: Inheritance is a mechanism that allows a new class (subclass or der
 Polymorphism: Polymorphism means "many shapes." It allows objects of different classes to be treated as objects of a common superclass. Polymorphism enables methods with the same name to behave differently based on the object's actual type. This concept is realized through method overriding and method overloading.
 
 Abstraction: Abstraction is the process of simplifying complex reality by modeling classes based on their essential properties and behaviors. It involves ignoring irrelevant details and focusing on the essential aspects of an object. Abstraction helps in managing complexity and enables the creation of abstract classes and interfaces.
+
