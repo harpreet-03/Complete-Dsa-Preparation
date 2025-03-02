@@ -27,5 +27,6 @@ public class Jagged_Array {
             }
             System.out.println(); // Move to the next line after printing each row
         }
+        
     }
 }

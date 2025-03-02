@@ -1,0 +1,13 @@
+❖ Breadth First Search or BFS for a Graph:
+----------------------------------------
+
+Breadth First Search (BFS) is a fundamental graph traversal algorithm. It begins with a node, then first traverses all its adjacent. Once all adjacent are visited, then their adjacent are traversed.
+
+- BFS is different from DFS in a way that closest vertices are visited before others. We mainly traverse vertices level by level.
+- Popular graph algorithms like Dijkstra’s shortest path, Kahn’s Algorithm, and Prim’s algorithm are based on BFS.
+- BFS itself can be used to detect cycle in a directed and undirected graph, find shortest path in an unweighted graph and many more problems.
+
+► It is similar to tree traversal where it starts from root node(the source) and traverses level by level using queue data structure.
+► The only catch here is that graphs may contain cycles, so we may come to the same node again. 
+To avoid reaching on same node again, we use a boolean visited array that will keep track of nodes visited while traversal.
+
